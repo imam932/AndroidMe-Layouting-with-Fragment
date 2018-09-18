@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <!--container ini diberi bobot sama besar agar tampil terbagi menjadi 3 sama besar-->
+    <!--ini adalah container untuk kepala-->
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="@color/hijau"
+        android:id="@+id/heads_container"></FrameLayout>
+
+    <!--ini adalah container untuk tubuh-->
+    <!--<FrameLayout-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="0dp"-->
+        <!--android:layout_weight="1"-->
+        <!--android:background="@color/biru"-->
+        <!--android:id="@+id/bodys_container"></FrameLayout>-->
+
+    <!--ini adalah container untuk kaki-->
+    <!--<FrameLayout-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="0dp"-->
+        <!--android:layout_weight="1"-->
+        <!--android:background="@color/pink"-->
+        <!--android:id="@+id/legs_container"></FrameLayout>-->
+</ScrollView>
